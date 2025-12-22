@@ -1,0 +1,22 @@
+# Ignore datasets and numpy arrays
+*.npy
+*.csv
+/train/
+/test/
+
+# Ignore temporary files
+__pycache__/
+*.pyc
+
+# Ignore large model files
+*.h5
+*.hdf5
+
+# Ignore OS and IDE files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# ✅ Allow outputImages folder to be included
+!outputImages/
