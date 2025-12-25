@@ -64,14 +64,14 @@ Identifying a dog’s breed helps owners better understand:
 
 Pawdentify/
 │
-├── api.py                         # Backend API server
-├── prepare.py                     # Data preprocessing
-├── step2-NasNetLarge-Model.py     # Model training script
-├── mobilenetv2-dog-breed-model.h5 # Trained model
-├── requirements.txt               # Dependencies
-├── static/                        # UI assets (if applicable)
-├── templates/                     # Frontend templates
-└── README.md                      # Project documentation
+├── api.py                         # Backend API server  
+├── prepare.py                     # Data preprocessing  
+├── step2-NasNetLarge-Model.py     # Model training script  
+├── mobilenetv2-dog-breed-model.h5 # Trained model  
+├── requirements.txt               # Dependencies  
+├── static/                        # UI assets (if applicable)  
+├── templates/                     # Frontend templates  
+└── README.md                      # Project documentation  
 
 ---
 
