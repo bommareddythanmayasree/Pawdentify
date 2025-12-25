@@ -62,8 +62,8 @@ Identifying a dog’s breed helps owners better understand:
 
 ## 📁 Project Structure
 
-Pawdentify/
-│
+Pawdentify/  
+│  
 ├── api.py                         # Backend API server  
 ├── prepare.py                     # Data preprocessing  
 ├── step2-NasNetLarge-Model.py     # Model training script  
