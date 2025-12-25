@@ -64,17 +64,14 @@ Identifying a dog’s breed helps owners better understand:
 
 Pawdentify/
 │
-├── api.py # Backend API server
-├── prepare.py # Data preprocessing
-├── step2-NasNetLarge-Model.py # Model training script
+├── api.py                         # Backend API server
+├── prepare.py                     # Data preprocessing
+├── step2-NasNetLarge-Model.py     # Model training script
 ├── mobilenetv2-dog-breed-model.h5 # Trained model
-├── requirements.txt # Dependencies
-├── static/ # UI assets (if applicable)
-├── templates/ # Frontend templates
-└── README.md # Project documentation
-
-yaml
-Copy code
+├── requirements.txt               # Dependencies
+├── static/                        # UI assets (if applicable)
+├── templates/                     # Frontend templates
+└── README.md                      # Project documentation
 
 ---
 
@@ -86,33 +83,29 @@ Copy code
 - Virtual environment (recommended)
 
 ### 🔹 Clone the Repository
-```bash
+
 git clone https://github.com/bommareddythanmayasree/Pawdentify.git
 cd Pawdentify
 🔹 Create Virtual Environment (Optional)
-bash
-Copy code
+
+
 python -m venv venv
 source venv/bin/activate      # Linux / Mac
 venv\Scripts\activate         # Windows
 🔹 Install Dependencies
-bash
-Copy code
+
 pip install -r requirements.txt
-▶️ Running the Application
+
+### ▶️ Running the Application
 Start the backend server:
 
-bash
-Copy code
 python api.py
 Then open your browser and visit:
 
-arduino
-Copy code
 http://localhost:5000
 Upload a dog image to get the predicted breed and detailed insights.
 
-🧪 Model Details
+### 🧪 Model Details
 Architecture: CNN with Transfer Learning
 
 Base Models: MobileNetV2 / NASNet
@@ -121,17 +114,17 @@ Input: Dog image
 
 Output: Breed classification
 
-📦 Model File
-Copy code
+###  📦 Model File
+
 mobilenetv2-dog-breed-model.h5
 You can retrain or fine-tune the model using the provided training scripts.
 
-🔌 API Endpoints
+###  🔌 API Endpoints
 Endpoint	Method	Description
 /predict	POST	Upload image and get breed prediction
 /breed/<name>	GET	Retrieve breed details
 
-📈 Use Cases
+###  📈 Use Cases
 🐾 Pet owners identifying unknown dog breeds
 
 🏥 Veterinary and pet-care platforms
@@ -140,7 +133,7 @@ Endpoint	Method	Description
 
 📄 Resume-worthy deep learning application
 
-🤝 Contributing
+###  🤝 Contributing
 Contributions are welcome!
 
 Fork the repository
