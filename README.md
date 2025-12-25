@@ -86,13 +86,14 @@ Pawdentify/
 
 git clone https://github.com/bommareddythanmayasree/Pawdentify.git
 cd Pawdentify  
-🔹 Create Virtual Environment (Optional)
+
+### 🔹 Create Virtual Environment (Optional)
 
 
 python -m venv venv
 source venv/bin/activate      # Linux / Mac
 venv\Scripts\activate         # Windows  
-🔹 Install Dependencies
+### 🔹 Install Dependencies
 
 pip install -r requirements.txt
 
